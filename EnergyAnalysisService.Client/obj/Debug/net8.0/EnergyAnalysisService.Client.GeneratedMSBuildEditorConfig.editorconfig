@@ -1,0 +1,107 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EnergyAnalysisService.Client
+build_property.RootNamespace = EnergyAnalysisService.Client
+build_property.ProjectDir = D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.Client\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.Client
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Projects/RiderProjects/EnergyAnalysisService/EnergyAnalysisService.Client/Views/Auth/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/RiderProjects/EnergyAnalysisService/EnergyAnalysisService.Client/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/RiderProjects/EnergyAnalysisService/EnergyAnalysisService.Client/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/RiderProjects/EnergyAnalysisService/EnergyAnalysisService.Client/Views/Category/CreateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/RiderProjects/EnergyAnalysisService/EnergyAnalysisService.Client/Views/Category/IndexCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXhDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/RiderProjects/EnergyAnalysisService/EnergyAnalysisService.Client/Views/Category/UpdateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/RiderProjects/EnergyAnalysisService/EnergyAnalysisService.Client/Views/Device/CreateDevice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXENyZWF0ZURldmljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/RiderProjects/EnergyAnalysisService/EnergyAnalysisService.Client/Views/Device/IndexDevice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXEluZGV4RGV2aWNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/RiderProjects/EnergyAnalysisService/EnergyAnalysisService.Client/Views/Device/UpdateDevice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXFVwZGF0ZURldmljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/RiderProjects/EnergyAnalysisService/EnergyAnalysisService.Client/Views/ElectricalLoad/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxlY3RyaWNhbExvYWRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/RiderProjects/EnergyAnalysisService/EnergyAnalysisService.Client/Views/ElectricalLoad/_DeviceSearchResults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxlY3RyaWNhbExvYWRcX0RldmljZVNlYXJjaFJlc3VsdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/RiderProjects/EnergyAnalysisService/EnergyAnalysisService.Client/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/RiderProjects/EnergyAnalysisService/EnergyAnalysisService.Client/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/RiderProjects/EnergyAnalysisService/EnergyAnalysisService.Client/Views/PaymentSlip/CreatePaymentSlip.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFNsaXBcQ3JlYXRlUGF5bWVudFNsaXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/RiderProjects/EnergyAnalysisService/EnergyAnalysisService.Client/Views/PaymentSlip/IndexPaymentSlip.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFNsaXBcSW5kZXhQYXltZW50U2xpcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/RiderProjects/EnergyAnalysisService/EnergyAnalysisService.Client/Views/PaymentSlip/UpdatePaymentSlip.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFNsaXBcVXBkYXRlUGF5bWVudFNsaXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/RiderProjects/EnergyAnalysisService/EnergyAnalysisService.Client/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/RiderProjects/EnergyAnalysisService/EnergyAnalysisService.Client/Views/Shared/_Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/RiderProjects/EnergyAnalysisService/EnergyAnalysisService.Client/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/RiderProjects/EnergyAnalysisService/EnergyAnalysisService.Client/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/RiderProjects/EnergyAnalysisService/EnergyAnalysisService.Client/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/RiderProjects/EnergyAnalysisService/EnergyAnalysisService.Client/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zcj1qtv0gj

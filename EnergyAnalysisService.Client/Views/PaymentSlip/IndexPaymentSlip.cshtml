@@ -1,0 +1,84 @@
+﻿@model List<EnergyAnalysisService.Models.Entity.PaymentSlip>
+@{
+    decimal totalKilowattPerDay = 0;
+    decimal totalKilowattPerMonth = 0;
+    decimal totalKilowattPerYear = 0;
+    decimal totalPricePerDay = 0;
+    decimal totalPricePerMonth = 0;
+    decimal totalPricePerYear = 0;
+}
+<div class="card shadow border-0 my-4">
+    <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">You calculate list</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <div class="row pb-3">
+            <div class="col-6">
+            </div>
+            <div class="col-6 text-end">
+                <a asp-controller="Device" asp-action="IndexDevice" class="btn btn-primary">
+                    <i class="bi bi-plus-circle"></i>  Add new item
+                </a>
+            </div>
+        </div>
+
+        <table class="table table-bordered table-striped">
+            <thead>
+            <tr>
+                <th>Device Name</th>
+                <th>Kilowatt Per Day</th>
+                <th>Kilowatt Per Month</th>
+                <th>Kilowatt Per Year</th>
+                <th>Price Per Day</th>
+                <th>Price Per Month</th>
+                <th>Price Per Year</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var obj in Model)
+            {
+                totalKilowattPerDay += obj.KilowattPerDay;
+                totalKilowattPerMonth += obj.KilowattPerMonth;
+                totalKilowattPerYear += obj.KilowattPerYear;
+                totalPricePerDay += obj.PricePerDay;
+                totalPricePerMonth += obj.PricePerMonth;
+                totalPricePerYear += obj.PricePerYear;
+                <tr>
+                    <td>@obj.Device.Title</td>
+                    <td>@obj.KilowattPerDay</td>
+                    <td>@obj.KilowattPerMonth</td>
+                    <td>@obj.KilowattPerYear</td>
+                    <td>@obj.PricePerDay</td>
+                    <td>@obj.PricePerMonth</td>
+                    <td>@obj.PricePerYear</td>
+                    <td>
+                        <div class="w-75 btn-group" role="group">
+                            <a asp-controller="PaymentSlip" asp-action="UpdatePaymentSlip" asp-route-id="@obj.Id" class="btn btn-primary mx-2">
+                                <i class="bi bi-pencil-square"></i> Edit
+                            </a>
+                            <a asp-controller="PaymentSlip" asp-action="DeletePaymentSlip" asp-route-id="@obj.Id" class="btn btn-danger mx-2">
+                                <i class="bi bi-trash-fill"></i> Delete
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            }
+            <tr class="total-row">
+                <td>Total</td>
+                <td>@totalKilowattPerDay</td>
+                <td>@totalKilowattPerMonth</td>
+                <td>@totalKilowattPerYear</td>
+                <td>@totalPricePerDay</td>
+                <td>@totalPricePerMonth</td>
+                <td>@totalPricePerYear</td>
+                <th></th>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

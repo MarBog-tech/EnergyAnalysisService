@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "T3RXUwsYfzfBLeFldw4UF+4gbJQUy3FXANF+ra+d6VY=",
+  "Source": "EnergyAnalysisService.API",
+  "BasePath": "_content/EnergyAnalysisService.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyAnalysisService.Client", "EnergyAnalysisService.Client\EnergyAnalysisService.Client.csproj", "{8D6ADAC9-1304-480F-9618-7B30D3477735}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyAnalysisService.API", "EnergyAnalysisService.API\EnergyAnalysisService.API.csproj", "{08367D50-ED79-48F9-B963-E5C34B8954A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyAnalysisService.DataAccess", "EnergyAnalysisService.DataAccess\EnergyAnalysisService.DataAccess.csproj", "{49FED7C8-8AAE-46C6-A26B-41AF4A8D767B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyAnalysisService.Models", "EnergyAnalysisService.Models\EnergyAnalysisService.Models.csproj", "{B05554CC-98D4-4AD2-A670-B89367FF28B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D6ADAC9-1304-480F-9618-7B30D3477735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D6ADAC9-1304-480F-9618-7B30D3477735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D6ADAC9-1304-480F-9618-7B30D3477735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D6ADAC9-1304-480F-9618-7B30D3477735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08367D50-ED79-48F9-B963-E5C34B8954A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08367D50-ED79-48F9-B963-E5C34B8954A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08367D50-ED79-48F9-B963-E5C34B8954A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08367D50-ED79-48F9-B963-E5C34B8954A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49FED7C8-8AAE-46C6-A26B-41AF4A8D767B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49FED7C8-8AAE-46C6-A26B-41AF4A8D767B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49FED7C8-8AAE-46C6-A26B-41AF4A8D767B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49FED7C8-8AAE-46C6-A26B-41AF4A8D767B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B05554CC-98D4-4AD2-A670-B89367FF28B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B05554CC-98D4-4AD2-A670-B89367FF28B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B05554CC-98D4-4AD2-A670-B89367FF28B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B05554CC-98D4-4AD2-A670-B89367FF28B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

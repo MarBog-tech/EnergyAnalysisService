@@ -1,0 +1,37 @@
+﻿@model List<EnergyAnalysisService.Models.Entity.Device>
+<div class="card shadow border-0 my-4">
+    <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Device List</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <div class="row pb-3">
+            <div class="col-6">
+                <div class="input-group w-50">
+                    <input type="text" id="searchTerm" class="form-control" placeholder="Search devices..." />
+                    <button id="searchDevices" class="btn btn-primary mt-2">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="col-4 text-end">
+                <input type="number" id="energySourceCapacity" class="form-control mt-2" placeholder="Energy source capacity (kW)" />
+            </div>
+        </div>
+        <div class="row pb-3">
+            <div class="col-6">
+                <div id="deviceSearchResults"></div>
+            </div>
+            <div class="col-6">   
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script src="~/js/electricalLoad.js"></script>
+}

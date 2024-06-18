@@ -1,0 +1,12 @@
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.Models\bin\Debug\net8.0\EnergyAnalysisService.Models.deps.json
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.Models\bin\Debug\net8.0\EnergyAnalysisService.Models.dll
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.Models\bin\Debug\net8.0\EnergyAnalysisService.Models.pdb
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.Models\obj\Debug\net8.0\EnergyAnalysisService.Models.csproj.AssemblyReference.cache
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.Models\obj\Debug\net8.0\EnergyAnalysisService.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.Models\obj\Debug\net8.0\EnergyAnalysisService.Models.AssemblyInfoInputs.cache
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.Models\obj\Debug\net8.0\EnergyAnalysisService.Models.AssemblyInfo.cs
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.Models\obj\Debug\net8.0\EnergyAnalysisService.Models.csproj.CoreCompileInputs.cache
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.Models\obj\Debug\net8.0\EnergyAnalysisService.Models.dll
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.Models\obj\Debug\net8.0\refint\EnergyAnalysisService.Models.dll
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.Models\obj\Debug\net8.0\EnergyAnalysisService.Models.pdb
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.Models\obj\Debug\net8.0\ref\EnergyAnalysisService.Models.dll

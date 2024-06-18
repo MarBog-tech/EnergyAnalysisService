@@ -1,0 +1,17 @@
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.DataAccess\bin\Debug\net8.0\EnergyAnalysisService.DataAccess.deps.json
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.DataAccess\bin\Debug\net8.0\EnergyAnalysisService.DataAccess.dll
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.DataAccess\bin\Debug\net8.0\EnergyAnalysisService.DataAccess.pdb
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.DataAccess\bin\Debug\net8.0\EnergyAnalysisService.Models.dll
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.DataAccess\bin\Debug\net8.0\EnergyAnalysisService.Models.pdb
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.DataAccess\obj\Debug\net8.0\EnergyAnalysisService.DataAccess.csproj.AssemblyReference.cache
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.DataAccess\obj\Debug\net8.0\EnergyAnalysisService.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.DataAccess\obj\Debug\net8.0\EnergyAnalysisService.DataAccess.AssemblyInfoInputs.cache
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.DataAccess\obj\Debug\net8.0\EnergyAnalysisService.DataAccess.AssemblyInfo.cs
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.DataAccess\obj\Debug\net8.0\EnergyAnalysisService.DataAccess.csproj.CoreCompileInputs.cache
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.DataAccess\obj\Debug\net8.0\EnergyAnalysisService.DataAccess.csproj.CopyComplete
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.DataAccess\obj\Debug\net8.0\EnergyAnalysisService.DataAccess.dll
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.DataAccess\obj\Debug\net8.0\refint\EnergyAnalysisService.DataAccess.dll
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.DataAccess\obj\Debug\net8.0\EnergyAnalysisService.DataAccess.pdb
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.DataAccess\obj\Debug\net8.0\ref\EnergyAnalysisService.DataAccess.dll
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.DataAccess\bin\Debug\net8.0\EnergyAnalysisService.DataAccess.runtimeconfig.json
+D:\Projects\RiderProjects\EnergyAnalysisService\EnergyAnalysisService.DataAccess\obj\Debug\net8.0\EnergyAnalysisService.DataAccess.genruntimeconfig.cache

@@ -1,0 +1,70 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model EnergyAnalysisService.Models.ViewModels.DeviceVM
+
+<div class="card shadow border-0 my-4">
+    <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">
+                    Create Device
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <form method="post" class="row">
+            <div class="row">
+                <div class="col-10">
+                    <div class="border p-3">
+                        <div class="mb-3 row p-1">
+                            <label asp-for="Device.Title" class="p-0"></label>
+                            <input asp-for="Device.Title" class="form-control"/>
+                            <span asp-validation-for="Device.Title" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3 row p-1">
+                            <label asp-for="Device.Description" class="p-0 text-muted"></label>
+                            <textarea asp-for="Device.Description" class="form-control"></textarea>
+                        </div>
+                        <div class="mb-3 row p-1">
+                            <label asp-for="Device.Wattage" class="p-0"></label>
+                            <input type="number" step="any" asp-for="Device.Wattage" class="form-control"/>
+                            <span asp-validation-for="Device.Wattage" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3 row p-1">
+                            <label asp-for="Device.CategoryId" class="p-0"></label>
+                            <select asp-for="@Model.Device.CategoryId" asp-items="@Model.CategoryList" class="form-select">
+                                <option disabled selected>---Select Category---</option>
+                            </select>
+                            <span asp-validation-for="Device.CategoryId" class="text-danger"></span>
+                        </div>
+                        <div class="row pt-2">
+                            <div class="col-6 col-md-3">
+                                <button type="submit" class="btn btn-primary form-control">Create</button>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <a asp-controller="Device" asp-action="IndexDevice" class="btn btn-outline-primary border  form-control">
+                                    Back to List
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script>
+      tinymce.init({
+                  selector: 'textarea',
+                  plugins: 'anchor autolink charmap codesample emoticons  lists   table visualblocks wordcount',
+                  toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough |  align lineheight | numlist bullist indent outdent',
+              });
+    </script>
+    @{
+        <partial name="_ValidationScriptsPartial"/>
+    }
+}
+

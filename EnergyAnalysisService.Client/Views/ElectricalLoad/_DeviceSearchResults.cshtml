@@ -1,0 +1,28 @@
+﻿@model List<EnergyAnalysisService.Models.Entity.Device>
+<table class="table table-bordered table-striped mt-4">
+    <thead>
+    <tr>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Wattage</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var obj in Model.OrderBy(u => u.Title))
+    {
+        <tr>
+            <td>@obj.Title</td>
+            <td>@Html.Raw(obj.Description)</td>
+            <td>@obj.Wattage</td>
+            <td>
+                @* <div class="w-75 btn-group" role="group"> *@
+                @*     <button class="btn btn-primary add-device-btn" data-device-id="@obj.Id" data-device-kilowatt="@obj.Wattage"> *@
+                @*         <i class="bi bi-plus-circle"></i> Add *@
+                @*     </button> *@
+                @* </div> *@
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
